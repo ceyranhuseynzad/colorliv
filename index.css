@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.a{
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+    
+}
+li{
+    margin: 20px;
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 90px;
+    margin-left:50%;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav button{
+    background-color: red;
+    color: 2pxsolid white;
+    width: 100px;
+    height: 50px;
+}
+.cot1{
+   max-width:  100%;
+    height: 700px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+   
+}
+.text{
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
+.image{
+    width: 800px;
+    height: 500px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.img1{
+   max-width:200px;
+    height: 300px;
+    background-color: blueviolet;
+    margin: auto;
+}
+.sry{
+    background-color: rgb(26, 139, 245);
+    width: 100%;
+    height: 500px;
+}
+.sry2{
+    background-color: rgb(26, 139, 245);
+    width: 100%;
+    height: 300px;
+}
+.fot1{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+.fot2{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(94, 12, 12);
+    display: flex;
+    justify-content: space-around;
+}
+.t{
+    height: 350px;
+    width: 270px;
+    background-color: rgb(32, 1, 1);
+    margin: auto;
+}
+.d{
+    height: 170px;
+    width: 600px;
+    background-color: rgb(73, 0, 0);
+}
+@media screen and (max-width:500px) {
+    .b{
+        display: none;
+    }
+    .cot1{
+        flex-direction: column;
+    width: 100%;
+     
+    }
+    .image{
+        flex-direction: column;
+        width: 90%;
+       
+    }
+    .img1{
+        width: 50%;
+   
+    
+    }
+  
+    .t,.d{
+        flex-direction: column;
+        width: 20%;
+    }
+  
+
+    
+}
